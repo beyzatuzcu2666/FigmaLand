@@ -1,0 +1,325 @@
+
+.navbarPage{
+  display: flex;
+  width: 1180px;
+  height: 119px;
+  margin-top: 4vh;
+
+}
+
+@media (max-width: 786px) {
+
+  .navbar-menu{
+     display: none!important;
+     }
+  .icon-img{
+    display: inline!important;
+    right: 1vw;
+    top: 5.5vh;
+    width: 26.67px;
+    height: 16px;
+    position: absolute;
+
+  }
+
+ 
+
+}
+
+
+
+
+
+
+.navbar-menu{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 36vw;
+
+}
+.navbar-menu li{
+  display: flex;
+  text-align: center;
+  padding-right: 3vw;
+
+  
+}
+
+.button{
+  text-align: center;
+  background-color: #ffffff;
+  color: #00B6F0; 
+  width: 140px;
+  height: 52px;
+  border-radius: 82px;
+  border-color: #00B6F0;
+  position: absolute;
+  right: 7vw;
+
+}
+
+
+.logo{
+  width: 206px;
+  height: 78px;
+  position: absolute;
+  left: 5vw;
+  margin-top: -2vh;
+
+}
+
+.icon-img{
+  display: none;
+  
+}
+
+@media (max-width: 786px) {
+  .section-First{
+    height: 900px!important;
+    width:100%;
+  }
+  .sectionPage{
+    display: block!important;
+    margin-right: 3vw;
+    
+  }
+  .PageFirst{
+    text-align: center;
+  }
+
+  .sectionPagetext h5,h6{
+    text-align: center!important;
+
+
+  }
+  .CompanentImg{
+  
+  }
+  .footer .navbarPage{
+    height: 618px;
+    width: 516px;
+    display: block!important;
+    padding-bottom: 3vh;
+    
+    
+  }
+  .footer .navbar-menu{
+    display: inline!important;
+    align-items: center;
+    position: absolute;
+    
+    
+    
+    
+  }
+  .footer .navbar-menu li{
+   
+    text-align: center;
+    padding-bottom: 3vw;
+    
+    
+    
+    
+  }
+
+
+
+
+}
+@media (max-width: 901px) {
+  PageImg{
+    height: 50vh;
+    width: 70vw;
+
+  
+} 
+  
+
+
+}
+
+
+
+.section-First{
+  height: 1549px;
+  width:100%;
+  background-image: linear-gradient(to top, #ffffff, #ffffff, #7ef3e5, #b7ece6, #ffffff) ;
+}
+
+h2{
+  text-align: center;
+  font-size: 54px;
+  left: 50%;
+  font-weight: 700;
+
+}
+h3{
+  text-align: center;
+  font-size: 23px;
+  font-weight: 600;
+  
+}
+
+h4{
+  left: 50%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  color: #F3CD03;
+
+}
+h5{
+  color:#5C5C5C;
+  left: 50%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h6{
+  color: #00B6F0;
+  text-align: left;
+}
+
+@media screen and (max-width:504px) {
+  .option-button-first{
+    margin-right: 50%;
+
+
+  }
+  .option-button-second{
+    margin-right: 50%;
+
+
+  }
+  }
+
+ 
+  
+
+
+.buttons-group{
+  margin-left: 38%;
+  display: flex;
+
+}
+.option-button-first{
+  text-align: center;
+  background-color:#00B6F0;
+  color: #ffffff;
+  border-radius: 85px;
+  height: 52px;
+  width: 194px;
+  border-color:#00B6F0 ;
+  font-weight: 600;
+  margin-right: 2vw;
+  
+  
+
+  
+  
+}
+.option-button-second{
+  color:black;
+  background-color: #ffffff;
+  border-radius: 85px;
+  border-color: gray;
+  height: 52px;
+  width: 194px;
+  font-weight: 600;
+  margin-left: 2vw;
+  
+}
+.option-button{
+  text-align: center;
+  background-color:#00B6F0;
+  color: #ffffff;
+  border-radius: 85px;
+  height: 52px;
+  width: 194px;
+  border-color:#00B6F0 ;
+  font-weight: 600;
+  margin-right: 2vw;
+  margin-bottom: 10vh;
+  
+
+  
+  
+}
+
+.graphics-img{
+  margin-right: 10vmax;
+  width: inherit;}
+
+
+  .sectionPage{
+    display: flex;
+    margin-top: 8vh;
+
+
+  }
+
+  .sectionPagetext{
+    display: block;
+    margin-left: 5vw;
+    justify-content: center;
+    padding-right: 13vw;
+    margin-top: 4vh;
+
+  }
+
+  .PageImg{
+      }
+
+  p{
+    font-size: 23px;
+  }
+  
+  .companent-first{
+
+  }
+
+  .companent-second{
+    display: block;
+    text-align: center;
+    
+  }
+
+  .CompanentImg{
+    height: 6vh;
+    width: 64vw;
+    margin-left: 17vw;
+    margin-bottom: 13vh;
+  }
+
+  .clientImg{
+    margin-bottom: 13vh;
+    margin-left: 16vw;
+    
+  }
+
+  .companent-third{
+    background-color: #182333;
+    height: 496px;
+  }
+
+.footer{
+  bottom: 0px;
+  left: 0px;
+
+}
+
+.icon-group{
+  position: absolute;
+  right: 4vw;
+}
+ 
+
+
+
+
+
+
+
+
