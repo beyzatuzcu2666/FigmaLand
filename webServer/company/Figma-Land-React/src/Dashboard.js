@@ -1,9 +1,10 @@
 
 import React, { Component } from 'react'
 import Footer from './components/Footer/Footer';
-import CompanentFirst from './components/Main-Components/CompanentFirst';
-import CompanentSecond from './components/Main-Components/CompanentSecond';
-import CompanentThird from './components/Main-Components/CompanentThird';
+import ComponentFirst from './components/Main-Components/ComponentFirst';
+import ComponentSecond from './components/Main-Components/ComponentSecond';
+import ComponentFourth from './components/Main-Components/ComponentFourth';
+import ComponentThird from './components/Main-Components/ComponentThird';
 import NavbarPage from './components/Navbar/NavbarPage';
 import SectionFirst from './components/Section/SectionFirst';
 import SectionPageFirst from './components/Section/SectionPageFirst';
@@ -12,7 +13,7 @@ import SectionSecond from './components/Section/SectionSecond';
 
 
 
-export default class Dashboard extends Component {
+ class Dashboard extends Component {
     render() {
         return (
             <div className="dashboard">
@@ -22,11 +23,13 @@ export default class Dashboard extends Component {
                 <SectionSecond/>
                 <SectionPageFirst/>
                 <SectionPageSecond/>
-                <CompanentFirst/>
-                <CompanentSecond/>
-                <CompanentThird/>
+                <ComponentFirst/>
+                <ComponentSecond/>
+                <ComponentThird/>
+                <ComponentFourth/>
                 <Footer/>
             </div>
         )
     }
 }
+export default Dashboard;

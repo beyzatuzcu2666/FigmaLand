@@ -25,10 +25,37 @@
  
 
 }
+@media (min-width: 844px) {
+  .sectionPage{
+    display: block;
+    margin: auto;
+   
+    
+  }
+}
+
+  @media (max-width: 863px) {
+    .companent-third{
+      display: block!important;
+      height: 808px!important;
+      
+    }
+  .part3{
+    margin-left: 31vw;
+
+  }
+  .part-2{
+    margin-left: 11vw;
+  }
+  .component-fourth{
+    display: block!important;
+    height: 808px!important;
+
+  
+}
 
 
-
-
+}
 
 
 .navbar-menu{
@@ -147,6 +174,7 @@
   background-image: linear-gradient(to top, #ffffff, #ffffff, #7ef3e5, #b7ece6, #ffffff) ;
 }
 
+
 h2{
   text-align: center;
   font-size: 54px;
@@ -184,16 +212,21 @@ h6{
 
 @media screen and (max-width:504px) {
   .option-button-first{
-    margin-right: 50%;
-
-
+    margin-left: -27vw;
   }
+ 
+
+
+  
   .option-button-second{
-    margin-right: 50%;
+    margin-left: -26vw;
+  }
+   
 
 
+  
   }
-  }
+  
 
  
   
@@ -216,7 +249,6 @@ h6{
   margin-right: 2vw;
   
   
-
   
   
 }
@@ -240,8 +272,8 @@ h6{
   width: 194px;
   border-color:#00B6F0 ;
   font-weight: 600;
-  margin-right: 2vw;
-  margin-bottom: 10vh;
+  display: block;
+  margin:auto ;
   
 
   
@@ -273,8 +305,10 @@ h6{
       }
 
   p{
-    font-size: 23px;
+    font-size: 1vw;
   }
+
+  
   
   .companent-first{
 
@@ -283,6 +317,7 @@ h6{
   .companent-second{
     display: block;
     text-align: center;
+    margin-bottom: 4vh;
     
   }
 
@@ -294,14 +329,24 @@ h6{
   }
 
   .clientImg{
-    margin-bottom: 13vh;
-    margin-left: 16vw;
+    display: block;
+    margin: auto;
+    margin-bottom: 9vh;
     
   }
 
   .companent-third{
     background-color: #182333;
     height: 496px;
+    display: flex;
+    text-align: center;
+  }
+  .component-fourth{
+    height: 496px;
+    background-image:linear-gradient(to top, #ffffff, #ffffff,  #ffff,#b4ddeb, #ffffff) ;
+    display: flex;
+    text-align: center;
+
   }
 
 .footer{
@@ -314,7 +359,22 @@ h6{
   position: absolute;
   right: 4vw;
 }
- 
+.part{
+  margin-left: 18vw;
+  margin-right:21vw;
+}
+.part3{
+  display: flex;
+}
+
+.text{
+  text-align: center;
+  font-size: 34px;
+  left: 50%;
+  font-weight: 600;
+  margin-top: 6vh;
+  
+}
 
 
 
